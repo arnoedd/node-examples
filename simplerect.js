@@ -8,13 +8,13 @@ var rect = {
     };
     
 function solveRect(l,b){
-    console.log("Solving for rectangle with l=" +l + "and b= " +b);
+    console.log("Solving for rectangle with l= " +l + " and b= " +b);
     if(l<0 || b<0){
-    console.log("Rectangle dimensions should be greater than zero);
+    console.log("Rectangle dimensions should be greater than zero");
     }
     else {
-    console.log("The area of a rectangle of dimensions lenght = " + l + " and breadth =" +b + " is " + rect.area(l,b));
-    console.log("The perimeter of a rectangle of dimensions lenght = " + l + " and breadth =" +b + " is " + rect.perimeter(l,b));
+    console.log("The area of a rectangle of dimensions lenght = " + l + " and breadth = " +b + " is " + rect.area(l,b));
+    console.log("The perimeter of a rectangle of dimensions lenght = " + l + " and breadth = " +b + " is " + rect.perimeter(l,b));
     }
     }
     
